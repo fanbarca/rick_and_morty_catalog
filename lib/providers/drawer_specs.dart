@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final drawerSpecsProvider = StateNotifierProvider((ref) => DrawerSpecs().state);
+final drawerSpecsProvider = StateNotifierProvider((ref) => DrawerSpecs());
 
 class DrawerSpecs extends StateNotifier {
   DrawerSpecs([_drawerValue]) : super(0);
